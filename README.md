@@ -19,14 +19,12 @@
 #### For training
 1. In "Set environment path" cell set os according to your system among `Windows`, `Mac`, `Linux`. train_mode = True
 2. In "Training or Inference" cell set saver=tf.train.Saver(max_to_keep=4, keep_checkpoint_every_n_hours=2), input 2 for training when prompted
-3. In "Initialize Variables" cell set train_mode = True
 
 #### For testing
 1. Create tmp folder under algorithm folder to store pre-trained model files for using. Copy the model file trained from saved_networks to tmp
 2. In "Set environment path" cell set os according to your system among `Windows`, `Mac`, `Linux`. train_mode = False
 3. In "Set Parameters" cell set load_path = './tmp/model.ckpt'
 4. In "Training or Inference" cell set saver=tf.train.import_meta_graph('./tmp/model.ckpt.meta'), input 1 for inference when prompted
-5. In "Initialize Variables" cell set train_mode = False
 
 
 ### Reference
