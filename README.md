@@ -5,7 +5,7 @@
 * Windows10 (64-bit)
 * Python 3.6
 * Anaconda 5.2.0
-* Tensorflow 1.8.0
+* Tensorflow 1.8.0 or Tensorflow 2.3
 * Tensorboard 1.8.0
 #### Hardware
 * CPU: Intel(R) Core(TM)i7-6700k CPU @ 4.00GHz
@@ -14,8 +14,9 @@
 
 ### How to run this project
 1. Clone repository
-2. Run `DQN_image.ipynb` in `algorithm` folder
-
+2. Tensorflow version option:
+   1. Tensorflow 1.8.0: Run `DQN_image.ipynb` in `algorithm` folder
+   2. Tensorflow 2.3.0: Run `DQN_image_keras.ipynb` in `algorithm` folder
 #### For training
 1. In "Set environment path" cell set os according to your system among `Windows`, `Mac`, `Linux`. `train_mode = True`
 2. In "Training or Inference" cell set `saver=tf.train.Saver(max_to_keep=4, keep_checkpoint_every_n_hours=2)`, input 2 for training when prompted
