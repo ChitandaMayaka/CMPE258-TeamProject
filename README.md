@@ -1,5 +1,4 @@
-# CMPE258-TeamProject
-## Deep Reinforcement Learning based Self-driving car
+# Deep Reinforcement Learning based Self-driving car
 ### Software and Hardware
 #### Software
 * Windows10 (64-bit)
